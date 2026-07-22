@@ -33,7 +33,7 @@ const properties = [
     beds: '5 Beds',
     baths: '4 Baths',
     sqft: '3100 sqft',
-    image: '/src/assets/images/img1.jpg',
+    image: '/src/assets/images/img4.jpg',
   },
 ];
 

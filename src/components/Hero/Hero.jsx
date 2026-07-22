@@ -125,7 +125,7 @@ const Hero = () => {
                                     // src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" 
                                     // alt="Modern Architecture" 
 
-                                    src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900"
+                                    src="/src/assets/images/img1.jpg"
                                     alt="Luxury House"
                                 />
                                 <button

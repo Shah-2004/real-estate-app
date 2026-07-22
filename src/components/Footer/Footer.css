@@ -1,0 +1,74 @@
+/* ==========================================
+   MINIMAL MODERN FOOTER
+   ========================================== */
+
+.footer-minimal {
+  background-color: #0b0f19;
+  color: #94a3b8;
+  padding: 35px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-minimal-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-brand-box h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.footer-brand-box h3 span {
+  color: #3b82f6;
+}
+
+.footer-brand-box p {
+  font-size: 13px;
+  color: #64748b;
+  margin: 0;
+}
+
+.footer-nav-links {
+  display: flex;
+  gap: 28px;
+}
+
+.footer-nav-links a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-nav-links a:hover {
+  color: #ffffff;
+}
+
+.footer-copy-box p {
+  font-size: 13px;
+  color: #64748b;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-minimal-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .footer-nav-links {
+    justify-content: center;
+    gap: 20px;
+  }
+}
