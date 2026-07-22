@@ -1,0 +1,150 @@
+.property-types-section {
+  background-color: #0b0f19;
+  padding: 70px 20px;
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.property-types-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-header-property {
+  margin-bottom: 40px;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.section-header p {
+  color: #94a3b8;
+  font-size: 16px;
+}
+
+.types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.type-card {
+  background-color: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 30px 20px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.type-card:hover {
+  transform: translateY(-5px);
+  border-color: #3b82f6;
+  background-color: #1f2937;
+}
+
+.type-icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.type-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.type-card p {
+  font-size: 13px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+
+
+/* ==========================================
+   INTERACTIVE PROPERTY TYPES STYLES
+   ========================================== */
+
+.property-types-section {
+  background-color: #0b0f19;
+  padding: 70px 20px;
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.property-types-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.type-card {
+  background-color: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 30px 20px;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type-card:hover {
+  transform: translateY(-6px);
+  border-color: #3b82f6;
+  background-color: #1f2937;
+  box-shadow: 0 10px 20px -5px rgba(59, 130, 246, 0.2);
+}
+
+/* Active/Selected state styling */
+.type-card.active-type {
+  border-color: #3b82f6;
+  background: linear-gradient(135deg, #111827 0%, #1e3a8a 100%);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+}
+
+.type-icon {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.type-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.type-card p {
+  font-size: 13px;
+  color: #94a3b8;
+  margin: 0 0 12px 0;
+}
+
+.explore-hint {
+  font-size: 12px;
+  font-weight: 600;
+  color: #3b82f6;
+  margin-top: auto;
+  transition: opacity 0.2s;
+}
+
+.type-card.active-type .explore-hint {
+  color: #60a5fa;
+}

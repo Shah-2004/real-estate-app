@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import AnnouncementBar from "./components/AnnouncementBar/AnnouncementBar.jsx";
+import AnnouncementBar from "./components/Home/AnnouncementBar/AnnouncementBar.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
 
 import Home from "./pages/Home.jsx";

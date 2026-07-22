@@ -1,0 +1,116 @@
+/* ==========================================
+   OUR ADVANTAGES SECTION STYLES
+   ========================================== */
+
+.advantages-section {
+  /* background-color: #070a12; */
+  background-color: #f1f5f9;
+  padding: 80px 20px;
+  /* color: #ffffff; */
+  color: #070a12 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+.advantages-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.advantage-card {
+  background-color: #111827;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 30px 24px;
+  border-radius: 20px;
+  text-align: left;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.advantage-card:hover {
+  transform: translateY(-8px);
+  border-color: #3b82f6;
+  box-shadow: 0 12px 25px -5px rgba(59, 130, 246, 0.2);
+}
+
+.advantage-card.expanded {
+  background: linear-gradient(145deg, #111827 0%, #1e3a8a 100%);
+  border-color: #3b82f6;
+}
+
+.advantage-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.advantage-icon {
+  font-size: 36px;
+  background: rgba(37, 99, 235, 0.15);
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantage-badge {
+  font-size: 11px;
+  font-weight: 600;
+  background: rgba(59, 130, 246, 0.2);
+  color: #60a5fa;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.advantage-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.advantage-card h4 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #94a3b8;
+  margin-bottom: 14px;
+}
+
+.advantage-desc {
+  font-size: 14px;
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.expand-toggle-btn {
+  background: none;
+  border: none;
+  color: #3b82f6;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  align-self: flex-start;
+  transition: color 0.2s;
+}
+
+.expand-toggle-btn:hover {
+  color: #60a5fa;
+}

@@ -55,8 +55,12 @@
 import React from "react";
 
 // import SearchSection from "../components/SearchSection.jsx";
-import FeaturedProperties from "../components/FeaturedProperties/FeaturedProperties.jsx";
-import Hero from "../components/Hero/Hero.jsx";
+import FeaturedProperties from "../components/Home/FeaturedProperties/FeaturedProperties.jsx";
+import Hero from "../components/Home/Hero/Hero.jsx";
+import PropertyTypes from "../components/Home/PropertyTypes/PropertyTypes.jsx";
+import OurAdvantages from "../components/Home/OurAdvantages/OurAdvantages.jsx";
+import Testimonials from "../components/Home/Testimonials/Testimonials.jsx";
+
 
 
 const Home = () => {
@@ -64,8 +68,10 @@ const Home = () => {
     <>
     
     <Hero/>
-    {/* <SearchSection /> */}
     <FeaturedProperties />
+    <PropertyTypes />
+    <OurAdvantages />
+    <Testimonials />
 
     </>
   );
