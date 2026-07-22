@@ -1,19 +1,3 @@
-// import React from 'react'
-
-
-// const Properties = () => {
-//   return (
-//     <>
-    
-//       <h1>Properties</h1>
-//     </>
-//   )
-// }
-
-// export default Properties
-
-
-
 import React, { useState } from 'react';
 import '../styles/Properties.css'
 
@@ -76,7 +60,7 @@ const Properties = () => {
     {
       id: 5,
       title: 'Independent Luxury Plot',
-      location: 'Pune',
+      location: 'Jaipur, Rajasthan',
       price: '₹45,00,000',
       tag: 'For Sale',
       type: 'sale',
