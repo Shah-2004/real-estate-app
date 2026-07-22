@@ -1,0 +1,63 @@
+/* =======================================================
+   GOOGLE FONT & RESET
+======================================================= */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f8fafc;
+  color: #1e293b;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+section {
+  padding: 80px 8%;
+}
+
+/* =======================================================
+   ANNOUNCEMENT BAR
+======================================================= */
+
+
+/* =======================================================
+   HERO SECTION
+======================================================= */
+
+/* =======================================================
+   SEARCH SECTION
+======================================================= */
+ 
+/* Section Title Styling */
+
+
+

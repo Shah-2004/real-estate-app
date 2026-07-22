@@ -1,0 +1,122 @@
+
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  color: #1e293b;
+  font-weight: 700;
+}
+
+.section-title p {
+  color: #64748b;
+  margin-top: 8px;
+}
+
+
+/* Property Cards Container */
+.property-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+/* Property Card Styling */
+.property-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f1f5f9;
+}
+
+.property-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.12);
+}
+
+.property-image {
+  position: relative;
+  height: 220px;
+  overflow: hidden;
+}
+
+.property-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.property-card:hover .property-image img {
+  transform: scale(1.05);
+}
+
+.property-tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #2563eb;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.property-tag.rent {
+  background: #10b981;
+}
+
+/* Card Details */
+.property-details {
+  padding: 20px;
+}
+
+.property-details h3 {
+  font-size: 20px;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.property-details .location {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.property-details .price {
+  font-size: 22px;
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.property-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-top: 1px solid #f1f5f9;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.view-btn {
+  width: 100%;
+  padding: 12px;
+  background: #f1f5f9;
+  color: #2563eb;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.view-btn:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
